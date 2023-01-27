@@ -1,0 +1,11 @@
+.box1{
+    width: 150px;
+    height: 200px;
+    border: 2px solid blue;
+    overflow-y: auto;
+    float: left;
+}
+img{
+    width: 100%;
+    height: auto;
+}
