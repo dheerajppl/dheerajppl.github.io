@@ -1,0 +1,114 @@
+/* ================= Portfolio Section ================= */
+
+.portfolio-section {
+  background-color: #f4f7fb;
+  padding: 60px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.portfolio-container {
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.portfolio-section hr {
+  width: 80px;
+  height: 4px;
+  background: #007bff;
+  border: none;
+  margin: 10px auto 40px auto;
+}
+
+/* Portfolio Boxes */
+.portfolio-box {
+  margin-bottom: 40px;
+}
+
+.portfolio-box h2 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.portfolio-box p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  background: #f1f3f7;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+  font-size: 15px;
+}
+
+/* Projects */
+.project {
+  background: #fafafa;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #28a745;
+}
+
+.project h3 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.project p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Contact Button */
+.portfolio-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 30px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.portfolio-btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+  .portfolio-container {
+    padding: 25px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .portfolio-box h2 {
+    font-size: 20px;
+  }
+}

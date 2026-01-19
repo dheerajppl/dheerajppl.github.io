@@ -1,102 +1,129 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
 
-  <title>Crime Portal</title>
-  <!-- <link rel="stylesheet" href="gymStyle.css"> -->
+  <!-- Basic SEO -->
+  <title>Dheeraj Kumar | MERN Stack Developer Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta Description (VERY IMPORTANT) -->
+  <meta name="description"
+        content="Dheeraj Kumar is a MERN Stack Software Engineer with 2+ years of experience in React, Node.js, MongoDB, NestJS, real-time chat apps, JWT authentication, and Stripe integration.">
+
+  <!-- Keywords (optional but helpful) -->
+  <meta name="keywords"
+        content="Dheeraj Kumar, MERN Stack Developer, Node.js Developer, React Developer, MongoDB, NestJS, Software Engineer Portfolio">
+
+  <meta name="author" content="Dheeraj Kumar">
+
+  <!-- Open Graph (for LinkedIn / WhatsApp sharing) -->
+  <meta property="og:title" content="Dheeraj Kumar | MERN Stack Developer">
+  <meta property="og:description"
+        content="Portfolio of Dheeraj Kumar – MERN Stack Developer with experience in real-time applications, authentication, and scalable systems.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="portfolio.css">
 
 </head>
 
 <body>
-  <!-- ================= Portfolio Section ================= -->
-  <section class="portfolio-section">
-    <div class="portfolio-container">
 
-      <h1 class="section-title">My Portfolio</h1>
-      <hr>
+  <main>
+    <!-- ================= Portfolio Section ================= -->
+    <section class="portfolio-section" aria-labelledby="portfolio-title">
+      <div class="portfolio-container">
 
-      <!-- About Me -->
-      <div class="portfolio-box">
-        <h2>👨‍💻 About Me</h2>
-        <p>
-          I am <strong>Dheeraj Kumar</strong>, a Software Engineer with
-          <strong>2+ years of experience</strong> in building scalable web applications
-          using the <strong>MERN Stack</strong>.
-          I enjoy solving real-world problems, optimizing backend systems,
-          and building real-time applications.
-        </p>
-      </div>
+        <!-- H1 only once (SEO rule) -->
+        <h1 id="portfolio-title" class="section-title">
+          Dheeraj Kumar – MERN Stack Software Engineer
+        </h1>
 
-      <!-- Skills -->
-      <div class="portfolio-box">
-        <h2>🛠 Skills</h2>
-        <ul class="skills-list">
-          <li><strong>Frontend:</strong> React.js, Redux, HTML, CSS, JavaScript</li>
-          <li><strong>Backend:</strong> Node.js, Express.js, NestJS</li>
-          <li><strong>Database:</strong> MongoDB, Aggregation Pipeline</li>
-          <li><strong>Real-Time:</strong> Socket.IO, WebSockets</li>
-          <li><strong>Auth:</strong> JWT, Refresh Tokens, OAuth</li>
-          <li><strong>Others:</strong> Git, REST APIs, Stripe Payments</li>
-        </ul>
-      </div>
+        <hr>
 
-      <!-- Projects -->
-      <div class="portfolio-box">
-        <h2>🚀 Projects</h2>
-
-        <div class="project">
-          <h3>Real-Time Chat Application</h3>
+        <!-- About Me -->
+        <section class="portfolio-box">
+          <h2>About Me</h2>
           <p>
-            Built a production-grade real-time chat system using
-            <strong>React, Socket.IO, and NestJS</strong>.
-            Features include unread/read message tracking,
-            user presence, admin-patient chat, and room-based messaging.
+            I am <strong>Dheeraj Kumar</strong>, a <strong>Software Engineer</strong>
+            with over <strong>2 years of experience</strong> building scalable
+            web applications using the <strong>MERN Stack</strong>.
+            I specialize in backend optimization, authentication systems,
+            and real-time applications.
           </p>
-        </div>
+        </section>
 
-        <div class="project">
-          <h3>Authentication System</h3>
-          <p>
-            Implemented secure authentication using
-            <strong>JWT Access Tokens & Refresh Tokens</strong>,
-            handling token expiry and session persistence.
-          </p>
-        </div>
+        <!-- Skills -->
+        <section class="portfolio-box">
+          <h2>Technical Skills</h2>
+          <ul class="skills-list">
+            <li><strong>Frontend Development:</strong> React.js, Redux, HTML, CSS, JavaScript</li>
+            <li><strong>Backend Development:</strong> Node.js, Express.js, NestJS</li>
+            <li><strong>Databases:</strong> MongoDB, Aggregation Pipeline</li>
+            <li><strong>Real-Time Systems:</strong> Socket.IO, WebSockets</li>
+            <li><strong>Authentication:</strong> JWT, Refresh Tokens, OAuth</li>
+            <li><strong>Payments & Tools:</strong> Stripe, Git, REST APIs</li>
+          </ul>
+        </section>
 
-        <div class="project">
-          <h3>MongoDB Performance Optimization</h3>
-          <p>
-            Optimized complex MongoDB aggregation pipelines
-            for handling large datasets and unread message counts efficiently.
-          </p>
-        </div>
+        <!-- Projects -->
+        <section class="portfolio-box">
+          <h2>Projects</h2>
 
-        <div class="project">
-          <h3>Stripe Payment Integration</h3>
+          <article class="project">
+            <h3>Real-Time Chat Application</h3>
+            <p>
+              Designed and developed a production-ready real-time chat application
+              using <strong>React, Socket.IO, and NestJS</strong>.
+              Implemented message read/unread tracking, user presence,
+              and role-based chat rooms.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Secure Authentication System</h3>
+            <p>
+              Built a secure authentication system using
+              <strong>JWT access tokens and refresh tokens</strong>,
+              handling token expiration and session persistence efficiently.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>MongoDB Performance Optimization</h3>
+            <p>
+              Optimized complex <strong>MongoDB aggregation pipelines</strong>
+              to improve performance and efficiently handle large datasets.
+            </p>
+          </article>
+
+          <article class="project">
+            <h3>Stripe Payment Integration</h3>
+            <p>
+              Integrated <strong>Stripe payment gateway</strong> into a MERN stack application,
+              implementing secure backend APIs and complete payment workflows.
+            </p>
+          </article>
+        </section>
+
+        <!-- Contact -->
+        <section class="portfolio-box">
+          <h2>Contact</h2>
           <p>
-            Integrated Stripe payments in a MERN application
-            with secure backend APIs and payment flow handling.
+            Looking for a MERN Stack Developer?
+            Let’s connect and work together.
           </p>
-        </div>
+          <a href="mailto:dheerajpanapurlanga@gmail.com"
+             class="portfolio-btn"
+             aria-label="Email Dheeraj Kumar">
+            Contact Me
+          </a>
+        </section>
+
       </div>
-
-      <!-- Contact -->
-      <div class="portfolio-box">
-        <h2>📩 Contact Me</h2>
-        <p>
-          Interested in working together or hiring me?
-          Feel free to reach out!
-        </p>
-        <a href="mailto:dheerajpanapurlanga@gmail.com" class="portfolio-btn">
-          Contact Me
-        </a>
-      </div>
-
-    </div>
-  </section>
-  <!-- ================= End Portfolio Section ================= -->
+    </section>
+    <!-- ================= End Portfolio Section ================= -->
+  </main>
 
 </body>
-
 </html>
